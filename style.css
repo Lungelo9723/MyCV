@@ -1,0 +1,30 @@
+/* Custom styles */
+.section-title {
+  font-size: 2rem;
+  border-bottom: 3px solid #0077cc;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Project card hover */
+.project-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s;
+}
+
+/*smooth links hover*/
+header nav a {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  text-decoration: none;
+  color: #fff; 
+}
+
+header nav a:hover,
+header nav a:focus {
+  transform: translateY(-3px);
+  background-color: rgba(255,255,255,0.08);
+  text-decoration: underline;
+}
