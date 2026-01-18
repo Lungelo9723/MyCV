@@ -1,135 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lungelo Mhlongo - Full Stack Developer CV</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lungelo Mhlongo – Portfolio & CV</title>
 
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <!-- External CSS -->
-  <link rel="stylesheet" href="style.css" />
-</head>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  <!-- Header -->
-  <header class="bg-dark text-white text-center py-5">
-    <h1>Lungelo Brian Mhlongo</h1>
-    <p>
-      Johannesburg, South Africa |
-      <a href="mailto:Brianlungelo1@gmail.com" class="text-white">Brianlungelo1@gmail.com</a> |
-      (+27) 661480091 |
-      <a href="https://github.com/Lungelo9723" class="text-white">GitHub</a> |
-      <a href="https://www.linkedin.com/in/lungelo-mhlongo-4a78b1187/" class="text-white">LinkedIn</a>
-    </p>
-    <nav class="mt-3">
-      <a href="#about" class="text-white mx-2">About</a>
-      <a href="#skills" class="text-white mx-2">Skills</a>
-      <a href="#projects" class="text-white mx-2">Projects</a>
-      <a href="#education" class="text-white mx-2">Education</a>
-      <a href="#experience" class="text-white mx-2">Experience</a>
-    </nav>
-  </header>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- About Me -->
-  <section id="about" class="container py-5">
-    <h2 class="section-title">About Me</h2>
-    <p>
-      I’m <strong>Lungelo Brian Mhlongo</strong>, an aspiring full-stack software developer
-      passionate about building clean, interactive, and user-friendly web applications.
-      I’m currently sharpening my skills in <strong>JavaScript, HTML, CSS, Java, SQL, and MERN Stack</strong>,
-      while exploring new technologies to solve real-world problems.
-    </p>
-    <p>
-      Previously in hospitality-focused roles, I developed strong communication, teamwork, and
-      time-management skills. I bring discipline, adaptability, and a growth mindset to
-      every project I tackle.
-    </p>
-  </section>
+    <!-- Boostrap JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Skills -->
-  <section id="skills" class="bg-light py-5">
-    <div class="container">
-      <h2 class="section-title">Skills</h2>
-      <div class="row mt-4">
-        <div class="col-md-6">
-          <h4>Technical Skills</h4>
-          <ul>
-            <li>JavaScript, HTML, CSS</li>
-            <li>Java & SQL</li>
-            <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
-            <li>Responsive Web Design</li>
-            <li>Git & GitHub</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <h4>Personal Attributes</h4>
-          <ul>
-            <li>Strong teamwork & collaboration</li>
-            <li>Effective communication & interpersonal skills</li>
-            <li>Problem-solving & adaptability</li>
-            <li>Time management & reliability</li>
-          </ul>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header text-white text-center py-5">
+      <h1 class="display-4">Lungelo Brian Mhlongo</h1>
+      <p class="lead">
+        Johannesburg, South Africa |
+        <a href="mailto:Brianlungelo1@gmail.com" class="text-white"
+          >Brianlungelo1@gmail.com</a
+        >
+        | (+27) 661480091 |
+        <a href="https://github.com/Lungelo9723" class="text-white">GitHub</a> |
+        <a
+          href="https://www.linkedin.com/in/lungelo-mhlongo-4a78b1187/"
+          class="text-white"
+          >LinkedIn</a
+        >
+      </p>
+      <nav class="mt-3">
+        <a href="#about" class="nav-link d-inline mx-2">About</a>
+        <a href="#skills" class="nav-link d-inline mx-2">Skills</a>
+        <a href="#projects" class="nav-link d-inline mx-2">Projects</a>
+        <a href="#education" class="nav-link d-inline mx-2">Education</a>
+        <a href="#experience" class="nav-link d-inline mx-2">Experience</a>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section py-5">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          I’m <strong>Lungelo Brian Mhlongo</strong>, an aspiring full-stack
+          developer passionate about building clean, interactive, and
+          user-friendly web applications. I’m currently sharpening my skills in
+          <strong>JavaScript, HTML, CSS, Java, SQL, and MERN Stack</strong>,
+          while exploring new technologies to solve real-world problems.
+        </p>
+        <p>
+          Previously in hospitality-focused roles, I developed strong
+          communication, teamwork, and time-management skills. I bring
+          discipline, adaptability, and a growth mindset to every project I
+          tackle.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light py-5">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <h4>Technical Skills</h4>
+            <ul class="skills-list">
+              <li>JavaScript, HTML, CSS</li>
+              <li>Java & SQL</li>
+              <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
+              <li>Responsive Web Design</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Personal Attributes</h4>
+            <ul class="skills-list">
+              <li>Strong teamwork & collaboration</li>
+              <li>Effective communication & interpersonal skills</li>
+              <li>Problem-solving & adaptability</li>
+              <li>Time management & reliability</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects -->
+    <!-- Projects Section -->
   <section id="projects" class="container py-5">
-    <h2 class="section-title">Projects</h2>
-    <div class="row mt-4 g-4">
-      <div class="col-md-6">
-        <div class="card h-100 shadow-sm p-3">
-          <h5>Personal Portfolio Website</h5>
-          <p>Technologies: HTML, CSS, JavaScript</p>
-          <ul>
-            <li>Fully responsive static website showcasing personal projects.</li>
-            <li>Clean design with intuitive navigation.</li>
-            <li><a href="https://github.com/Lungelo9723/portfolio" target="_blank">View on GitHub</a></li>
-          </ul>
+  <h2 class="section-title text-center mb-4">Projects</h2>
+
+  <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Maintenance Management App -->
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="card project-card h-100 shadow-sm p-4">
+              <h5 class="project-title">Maintenance Management App</h5>
+              <p class="project-tech"><strong>Tech:</strong> React, Node.js, Express, MongoDB</p>
+              <ul class="project-description">
+                <li>Full-stack maintenance job management system</li>
+                <li>CRUD operations with batch updates and archiving</li>
+                <li>RESTful API with frontend-backend separation</li>
+              </ul>
+              <a href="https://github.com/Lungelo9723/maintenance-app" target="_blank"
+                 class="btn btn-outline-dark btn-sm mt-3">View on GitHub</a>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- Add more project cards here -->
-    </div>
-  </section>
 
-  <!-- Education -->
-  <section id="education" class="bg-light py-5">
-    <div class="container">
-      <h2 class="section-title">Education</h2>
-      <div class="mb-3">
-        <h5>National Senior Certificate | 2011 – 2015</h5>
-        <p>Mathematics: 80%, Physical Sciences: 75%, Life Sciences: 78%</p>
+      <!-- Spotify SQL Capstone Project -->
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="card project-card h-100 shadow-sm p-4">
+              <h5 class="project-title">Spotify SQL Capstone Project</h5>
+              <p class="project-tech"><strong>Tech:</strong> SQL, MariaDB, Data Analysis</p>
+              <ul class="project-description">
+                <li>Analyzed Spotify streaming history data</li>
+                <li>Identified skip behavior and listening patterns</li>
+                <li>Wrote optimized SQL queries for insights</li>
+              </ul>
+              <a href="https://github.com/Lungelo9723/spotify-sql-capstone" target="_blank"
+                 class="btn btn-outline-dark btn-sm mt-3">View on GitHub</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <h5>HyperionDev Full Stack Web & Software Development Bootcamp (Ongoing)</h5>
-        <p>Focus: Full-Stack Development – Front-End and Back-End</p>
+
+      <!-- Secure React To-Do Application -->
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="card project-card h-100 shadow-sm p-4">
+              <h5 class="project-title">Secure React To-Do Application</h5>
+              <p class="project-tech"><strong>Tech:</strong> React, Node.js, Express, MongoDB, JWT</p>
+              <ul class="project-description">
+                <li>User authentication and protected routes</li>
+                <li>Custom Express middleware for validation</li>
+                <li>JSON-only requests and task length enforcement</li>
+              </ul>
+              <a href="https://github.com/Lungelo9723/react-auth-todo-app" target="_blank"
+                 class="btn btn-outline-dark btn-sm mt-3">View on GitHub</a>
+            </div>
+          </div>
+        </div>
       </div>
+
     </div>
-  </section>
 
-  <!-- Experience -->
-  <section id="experience" class="container py-5">
-    <h2 class="section-title">Professional Experience</h2>
-    <p>
-      Hospitality-focused roles while studying software development, developing
-      strong communication, teamwork, and problem-solving skills. Demonstrated
-      adaptability and reliability in fast-paced environments.
-    </p>
-  </section>
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4">
-    <p>
-      © 2026 Lungelo Brian Mhlongo |
-      <a href="https://github.com/Lungelo9723" target="_blank" class="text-white">GitHub</a> |
-      <a href="https://www.linkedin.com/in/lungelo-mhlongo" target="_blank" class="text-white">LinkedIn</a>
-    </p>
-  </footer>
-</body>
+    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light py-5">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="mb-3">
+          <h5>
+            Full Stack Web & Software Development Bootcamp | HyperionDev
+            (Ongoing, completes Mar 2026)
+          </h5>
+          <p>
+            <strong>Focus:</strong> Frontend & Backend Development (JavaScript,
+            HTML, CSS, React, Node.js, Express, MongoDB, SQL, Java)
+          </p>
+        </div>
+        <div>
+          <h5>National Senior Certificate | 2011 – 2015</h5>
+          <p>Mathematics: 80%, Physical Sciences: 75%, Life Sciences: 78%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section py-5">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <p>
+          Hospitality-focused roles while studying software development,
+          developing strong communication, teamwork, and problem-solving skills.
+          Demonstrated adaptability and reliability in fast-paced environments.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-4">
+      <p>
+        © 2026 Lungelo Brian Mhlongo |
+        <a href="https://github.com/Lungelo9723" target="_blank">GitHub</a> |
+        <a
+          href="https://www.linkedin.com/in/lungelo-mhlongo-4a78b1187/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
-
