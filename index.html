@@ -1,226 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lungelo Mhlongo – Portfolio & CV</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lungelo Mhlongo | Software Developer</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Boostrap JS-->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<body>
 
-  <body>
-    <!-- Header -->
-    <header class="header text-white text-center py-5">
-      <h1 class="display-4">Lungelo Brian Mhlongo</h1>
-      <p class="lead">
-        Johannesburg, South Africa |
-        <a href="mailto:Brianlungelo1@gmail.com" class="text-white"
-          >Brianlungelo1@gmail.com</a
-        >
-        | (+27) 661480091 |
-        <a href="https://github.com/Lungelo9723" class="text-white">GitHub</a> |
-        <a
-          href="https://www.linkedin.com/in/lungelo-mhlongo-4a78b1187/"
-          class="text-white"
-          >LinkedIn</a
-        >
-      </p>
-      <nav class="mt-3">
-        <a href="#about" class="nav-link d-inline mx-2">About</a>
-        <a href="#skills" class="nav-link d-inline mx-2">Skills</a>
-        <a href="#projects" class="nav-link d-inline mx-2">Projects</a>
-        <a href="#education" class="nav-link d-inline mx-2">Education</a>
-        <a href="#experience" class="nav-link d-inline mx-2">Experience</a>
-      </nav>
-    </header>
+<!-- ================= HERO ================= -->
+<header class="hero-section text-center">
+  <div class="container">
+    <img src="assets/profile.PNG" alt="Lungelo Mhlongo Profile Photo" class="profile-photo">
+    <h1 class="hero-title">Hi, I’m <span class="accent">Lungelo Mhlongo</span></h1>
+    <p class="hero-subtitle">Aspiring Full-Stack Developer</p>
+    <p class="hero-meta">
+      📍 Johannesburg, South Africa<br>
+      📧 <a href="mailto:Brianlungelo1@gmail.com">Brianlungelo1@gmail.com</a><br>
+      📞 <a href="tel:+27661480091">(+27) 66 148 0091</a>
+    </p>
+    <div class="hero-icons mt-3">
+      <a href="https://www.linkedin.com/in/lungelo-mhlongo-4a78b1187/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/Lungelo9723" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="mailto:Brianlungelo1@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </div>
+</header>
 
-    <!-- About Section -->
-    <section id="about" class="section py-5">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <p>
-          I’m <strong>Lungelo Brian Mhlongo</strong>, an aspiring full-stack
-          developer passionate about building clean, interactive, and
-          user-friendly web applications. I’m currently sharpening my skills in
-          <strong>JavaScript, HTML, CSS, Java, SQL, and MERN Stack</strong>,
-          while exploring new technologies to solve real-world problems.
-        </p>
-        <p>
-          Previously in hospitality-focused roles, I developed strong
-          communication, teamwork, and time-management skills. I bring
-          discipline, adaptability, and a growth mindset to every project I
-          tackle.
-        </p>
-      </div>
-    </section>
+<!-- ================= DROPDOWN NAV (SCROLL) ================= -->
+<nav id="scrollNav" class="scroll-nav text-center">
+  <div class="dropdown">
+    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-label="Navigation Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark">
+      <li><a class="dropdown-item" href="#about">About</a></li>
+      <li><a class="dropdown-item" href="#skills">Skills</a></li>
+      <li><a class="dropdown-item" href="#projects">Projects</a></li>
+      <li><a class="dropdown-item" href="#education">Education</a></li>
+      <li><a class="dropdown-item" href="#experience">Experience</a></li>
+      <li><a class="dropdown-item" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section bg-light py-5">
-      <div class="container">
-        <h2 class="section-title">Skills</h2>
-        <div class="row mt-4">
-          <div class="col-md-6">
-            <h4>Technical Skills</h4>
-            <ul class="skills-list">
-              <li>JavaScript, HTML, CSS</li>
-              <li>Java & SQL</li>
-              <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
-              <li>Responsive Web Design</li>
-              <li>Git & GitHub</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <h4>Personal Attributes</h4>
-            <ul class="skills-list">
-              <li>Strong teamwork & collaboration</li>
-              <li>Effective communication & interpersonal skills</li>
-              <li>Problem-solving & adaptability</li>
-              <li>Time management & reliability</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section text-center fade-in">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p>I am an aspiring full-stack software developer with a strong foundation in JavaScript, Java, SQL, and the MERN stack. I enjoy building clean, scalable applications that solve real-world problems.</p>
+    <p>My background in hospitality sharpened my communication, teamwork, and problem-solving abilities, which I now apply to collaborative software development environments.</p>
+  </div>
+</section>
 
-    <!-- Projects Section -->
-  <section id="projects" class="container py-5">
-  <h2 class="section-title text-center mb-4">Projects</h2>
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section section-alt text-center fade-in">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
 
-  <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <h4 class="skill-category">Web Technologies</h4>
+    <div class="skills-grid justify-content-center mb-5">
+      <div class="skill-item"><img src="assets/icons/html.svg" alt="HTML Logo"><span>HTML</span></div>
+      <div class="skill-item"><img src="assets/icons/css.svg" alt="CSS Logo"><span>CSS</span></div>
+      <div class="skill-item"><img src="assets/icons/javascript.svg" alt="JavaScript Logo"><span>JavaScript</span></div>
+      <div class="skill-item"><img src="assets/icons/json.svg" alt="JSON Logo"><span>JSON</span></div>
+      <div class="skill-item"><img src="assets/icons/jwt.svg" alt="JWT Logo"><span>JWT</span></div>
+    </div>
 
-      <!-- Maintenance Management App -->
-      <div class="carousel-item active">
-        <div class="d-flex justify-content-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="card project-card h-100 shadow-sm p-4">
-              <h5 class="project-title">Maintenance Management App</h5>
-              <p class="project-tech"><strong>Tech:</strong> React, Node.js, Express, MongoDB</p>
-              <ul class="project-description">
-                <li>Full-stack maintenance job management system</li>
-                <li>CRUD operations with batch updates and archiving</li>
-                <li>RESTful API with frontend-backend separation</li>
-              </ul>
-              <a href="https://github.com/Lungelo9723/maintenance-app" target="_blank"
-                 class="btn btn-outline-dark btn-sm mt-3">View on GitHub</a>
-            </div>
-          </div>
+    <h4 class="skill-category">Stacks</h4>
+    <div class="skills-grid justify-content-center mb-5">
+      <div class="skill-item"><img src="assets/icons/react.svg" alt="React Logo"><span>React</span></div>
+      <div class="skill-item"><img src="assets/icons/nodejs.svg" alt="Node.js Logo"><span>Node.js</span></div>
+      <div class="skill-item"><img src="assets/icons/mongodb.svg" alt="MongoDB Logo"><span>MongoDB</span></div>
+      <div class="skill-item"><img src="assets/icons/sql.svg" alt="SQL Logo"><span>SQL</span></div>
+      <div class="skill-item"><img src="assets/icons/java.svg" alt="Java Logo"><span>Java</span></div>
+    </div>
+
+    <h4 class="skill-category">Tools</h4>
+    <div class="skills-grid justify-content-center mb-5">
+      <div class="skill-item"><img src="assets/icons/git.svg" alt="Git Logo"><span>Git & GitHub</span></div>
+      <div class="skill-item"><img src="assets/icons/vscode.svg" alt="VS Code Logo"><span>VS Code</span></div>
+      <div class="skill-item"><img src="assets/icons/postman.svg" alt="Postman Logo"><span>Postman</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section text-center fade-in">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="row justify-content-center g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Maintenance Management App</h5>
+          <p class="tech">React • Node • Express • MongoDB</p>
+          <ul class="text-start">
+            <li>Full CRUD operations</li>
+            <li>RESTful API</li>
+            <li>Batch updates & archiving</li>
+          </ul>
+          <a href="https://github.com/Lungelo9723/maintenance-app" target="_blank">View on GitHub</a>
         </div>
       </div>
 
-      <!-- Spotify SQL Capstone Project -->
-      <div class="carousel-item">
-        <div class="d-flex justify-content-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="card project-card h-100 shadow-sm p-4">
-              <h5 class="project-title">Spotify SQL Capstone Project</h5>
-              <p class="project-tech"><strong>Tech:</strong> SQL, MariaDB, Data Analysis</p>
-              <ul class="project-description">
-                <li>Analyzed Spotify streaming history data</li>
-                <li>Identified skip behavior and listening patterns</li>
-                <li>Wrote optimized SQL queries for insights</li>
-              </ul>
-              <a href="https://github.com/Lungelo9723/spotify-sql-capstone" target="_blank"
-                 class="btn btn-outline-dark btn-sm mt-3">View on GitHub</a>
-            </div>
-          </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Secure React To-Do App</h5>
+          <p class="tech">React • JWT • Express • MongoDB</p>
+          <ul class="text-start">
+            <li>User authentication</li>
+            <li>Protected routes</li>
+            <li>Custom middleware</li>
+          </ul>
+          <a href="https://github.com/Lungelo9723/react-auth-todo-app" target="_blank">View on GitHub</a>
         </div>
       </div>
 
-      <!-- Secure React To-Do Application -->
-      <div class="carousel-item">
-        <div class="d-flex justify-content-center">
-          <div class="col-md-8 col-lg-6">
-            <div class="card project-card h-100 shadow-sm p-4">
-              <h5 class="project-title">Secure React To-Do Application</h5>
-              <p class="project-tech"><strong>Tech:</strong> React, Node.js, Express, MongoDB, JWT</p>
-              <ul class="project-description">
-                <li>User authentication and protected routes</li>
-                <li>Custom Express middleware for validation</li>
-                <li>JSON-only requests and task length enforcement</li>
-              </ul>
-              <a href="https://github.com/Lungelo9723/react-auth-todo-app" target="_blank"
-                 class="btn btn-outline-dark btn-sm mt-3">View on GitHub</a>
-            </div>
-          </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="project-card">
+          <h5>Spotify SQL Capstone</h5>
+          <p class="tech">SQL • MariaDB • Data Analysis</p>
+          <ul class="text-start">
+            <li>Listening behavior analysis</li>
+            <li>Optimized queries</li>
+            <li>Pattern identification</li>
+          </ul>
+          <a href="https://github.com/Lungelo9723/spotify-sql-capstone" target="_blank">View on GitHub</a>
         </div>
       </div>
 
     </div>
-
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-
-    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
   </div>
 </section>
 
-
-
-    <!-- Education Section -->
-    <section id="education" class="section bg-light py-5">
-      <div class="container">
-        <h2 class="section-title">Education</h2>
-        <div class="mb-3">
-          <h5>
-            Full Stack Web & Software Development Bootcamp | HyperionDev
-            (Ongoing, completes Mar 2026)
-          </h5>
-          <p>
-            <strong>Focus:</strong> Frontend & Backend Development (JavaScript,
-            HTML, CSS, React, Node.js, Express, MongoDB, SQL, Java)
-          </p>
-        </div>
-        <div>
-          <h5>National Senior Certificate | 2011 – 2015</h5>
-          <p>Mathematics: 80%, Physical Sciences: 75%, Life Sciences: 78%</p>
-        </div>
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="section section-alt text-center fade-in">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="education-grid d-flex flex-column align-items-center gap-4">
+      <div class="education-item card p-3 text-center">
+        <h5>Full Stack Web & Software Development Bootcamp</h5>
+        <p>HyperionDev (Ongoing – completes Mar 2026)</p>
+        <p>JavaScript, React, Node.js, MongoDB, SQL, Java</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section py-5">
-      <div class="container">
-        <h2 class="section-title">Professional Experience</h2>
-        <p>
-          Hospitality-focused roles while studying software development,
-          developing strong communication, teamwork, and problem-solving skills.
-          Demonstrated adaptability and reliability in fast-paced environments.
-        </p>
-      </div>
-    </section>
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="section text-center fade-in">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <p>Hospitality-focused roles while studying software development. Developed strong communication, teamwork, adaptability, and time-management skills.</p>
+  </div>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer text-center py-4">
-      <p>
-        © 2026 Lungelo Brian Mhlongo |
-        <a href="https://github.com/Lungelo9723" target="_blank">GitHub</a> |
-        <a
-          href="https://www.linkedin.com/in/lungelo-mhlongo-4a78b1187/"
-          target="_blank"
-          >LinkedIn</a
-        >
-      </p>
-    </footer>
-  </body>
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section section-alt text-center fade-in">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Open to junior developer opportunities and collaborations.</p>
+    <div class="contact-icons">
+      <a href="mailto:Brianlungelo1@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://github.com/Lungelo9723" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/lungelo-mhlongo-4a78b1187/" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer text-center">
+  <p>© 2026 Lungelo Brian Mhlongo</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scroll Navbar & Fade-In -->
+<script>
+  const nav = document.getElementById("scrollNav");
+  window.addEventListener("scroll", () => {
+    nav.style.opacity = window.scrollY > 100 ? "1" : "0.6";
+  });
+
+  const faders = document.querySelectorAll('.fade-in');
+  const appearOptions = { threshold: 0.2, rootMargin: "0px 0px -50px 0px" };
+  const appearOnScroll = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('appear');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, appearOptions);
+  faders.forEach(fader => appearOnScroll.observe(fader));
+</script>
+
+</body>
 </html>
